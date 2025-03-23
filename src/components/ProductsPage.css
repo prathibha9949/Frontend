@@ -1,0 +1,21 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the grid */
+  }
+  
+  .product-card {
+    border: 1px solid #ccc; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    text-align: center; /* Center-align text */
+    background-color: #fff; /* Background color */
+  }
+  
+  .product-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slightly rounded corners for images */
+  }
+  
